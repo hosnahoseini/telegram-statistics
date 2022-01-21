@@ -78,6 +78,6 @@ class ChatStatistics:
 
 
 if __name__ == "__main__":
-    stats = ChatStatistics(json_file=DATA_DIR / 'ee_aut.json')
+    stats = ChatStatistics(json_file=DATA_DIR / 'result.json')
     stats.generate_wordcloud(DATA_DIR)
     print("Done")
